@@ -62,6 +62,7 @@ RUN pip install 'numpy==1.14.0' \
   && make install \
   && pip install TA-Lib \
   && pip install matplotlib \
+  && pip install pika \
   && pip install jupyter
 
 #
